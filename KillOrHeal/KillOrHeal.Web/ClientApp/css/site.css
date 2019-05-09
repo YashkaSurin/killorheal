@@ -1,0 +1,33 @@
+﻿.game-board table td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    cursor: default;
+}
+
+.current-player {
+    background-color: green;
+}
+
+.enemy {
+    background-color: red;
+}
+
+.ally {
+	background-color: lightgrey;
+}
+
+.error {
+    color: red;
+}
+
+#react-app {
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.faction-selector label {
+	margin-left: 5px;
+}
